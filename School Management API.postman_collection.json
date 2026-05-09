@@ -21,14 +21,15 @@
           }
         },
         "url": {
-          "raw": "http://localhost:3000/addSchool",
-          "protocol": "http",
+          "raw": "https://school-management-api-navy.vercel.app/addschool",
+          "protocol": "https",
           "host": [
-            "localhost"
+            "school-management-api-navy",
+            "vercel",
+            "app"
           ],
-          "port": "3000",
           "path": [
-            "addSchool"
+            "addschool"
           ]
         }
       },
@@ -48,14 +49,15 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3000/addSchool",
-              "protocol": "http",
+              "raw": "https://school-management-api-navy.vercel.app/addschool",
+              "protocol": "https",
               "host": [
-                "localhost"
+                "school-management-api-navy",
+                "vercel",
+                "app"
               ],
-              "port": "3000",
               "path": [
-                "addSchool"
+                "addschool"
               ]
             }
           },
@@ -112,14 +114,15 @@
           }
         },
         "url": {
-          "raw": "http://localhost:3000/addSchool",
-          "protocol": "http",
+          "raw": "https://school-management-api-navy.vercel.app/addschool",
+          "protocol": "https",
           "host": [
-            "localhost"
+            "school-management-api-navy",
+            "vercel",
+            "app"
           ],
-          "port": "3000",
           "path": [
-            "addSchool"
+            "addschool"
           ]
         }
       },
@@ -139,14 +142,15 @@
               }
             },
             "url": {
-              "raw": "http://localhost:3000/addSchool",
-              "protocol": "http",
+              "raw": "https://school-management-api-navy.vercel.app/addschool",
+              "protocol": "https",
               "host": [
-                "localhost"
+                "school-management-api-navy",
+                "vercel",
+                "app"
               ],
-              "port": "3000",
               "path": [
-                "addSchool"
+                "addschool"
               ]
             }
           },
@@ -200,12 +204,13 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "http://localhost:3000/listSchools?lat=23.7600&lng=85.9900",
-          "protocol": "http",
+          "raw": "https://school-management-api-navy.vercel.app/listSchools?lat=23.7600&lng=85.9900",
+          "protocol": "https",
           "host": [
-            "localhost"
+            "school-management-api-navy",
+            "vercel",
+            "app"
           ],
-          "port": "3000",
           "path": [
             "listSchools"
           ],
@@ -228,12 +233,13 @@
             "method": "GET",
             "header": [],
             "url": {
-              "raw": "http://localhost:3000/listSchools?lat=23.7600&lng=85.9900",
-              "protocol": "http",
+              "raw": "https://school-management-api-navy.vercel.app/listSchools?lat=23.7600&lng=85.9900",
+              "protocol": "https",
               "host": [
-                "localhost"
+                "school-management-api-navy",
+                "vercel",
+                "app"
               ],
-              "port": "3000",
               "path": [
                 "listSchools"
               ],
