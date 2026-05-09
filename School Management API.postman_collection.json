@@ -1,0 +1,291 @@
+{
+  "info": {
+    "_postman_id": "08229db3-d7a5-46d5-992b-133618088951",
+    "name": "School Management API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "40595309"
+  },
+  "item": [
+    {
+      "name": "Add School 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Phusro High School\",\r\n    \"address\": \"Phusro Bazar, Main Road\",\r\n    \"latitude\": 23.7650,\r\n    \"longitude\": 85.9950\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/addSchool",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "addSchool"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "School 1",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Phusro High School\",\r\n    \"address\": \"Phusro Bazar, Main Road\",\r\n    \"latitude\": 23.7650,\r\n    \"longitude\": 85.9950\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/addSchool",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "addSchool"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "53"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"35-y8+39O3CwZmfZYES5juRfP2tGfQ\""
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 09 May 2026 09:41:51 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"School added successfully!\",\n    \"schoolId\": 1\n}"
+        }
+      ]
+    },
+    {
+      "name": "Add School 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Ranchi International Academy\",\r\n    \"address\": \"Kanke Road, Ranchi\",\r\n    \"latitude\": 23.3441,\r\n    \"longitude\": 85.3096\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/addSchool",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "addSchool"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "School 3",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"name\": \"Ranchi International Academy\",\r\n    \"address\": \"Kanke Road, Ranchi\",\r\n    \"latitude\": 23.3441,\r\n    \"longitude\": 85.3096\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/addSchool",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "addSchool"
+              ]
+            }
+          },
+          "status": "Created",
+          "code": 201,
+          "_postman_previewlanguage": "",
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "53"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"35-ML98POJHoL3pYLwLDO0Bjk1YdOE\""
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 09 May 2026 09:56:54 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [
+            {
+              "expires": "Invalid Date",
+              "domain": "",
+              "path": ""
+            }
+          ],
+          "body": "{\n    \"message\": \"School added successfully!\",\n    \"schoolId\": 3\n}"
+        }
+      ]
+    },
+    {
+      "name": "List Schools",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/listSchools?lat=23.7600&lng=85.9900",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "lat",
+              "value": "23.7600"
+            },
+            {
+              "key": "lng",
+              "value": "85.9900"
+            }
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Schools",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/listSchools?lat=23.7600&lng=85.9900",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "listSchools"
+              ],
+              "query": [
+                {
+                  "key": "lat",
+                  "value": "23.7600"
+                },
+                {
+                  "key": "lng",
+                  "value": "85.9900"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "472"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"1d8-4h1kbWN6uKqm4joCCxEgLZZ1jAw\""
+            },
+            {
+              "key": "Date",
+              "value": "Sat, 09 May 2026 10:01:52 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=5"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Phusro High School\",\n        \"address\": \"Phusro Bazar, Main Road\",\n        \"latitude\": 23.764999389648438,\n        \"longitude\": 85.99500274658203,\n        \"distanceInKm\": 0.75\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Bokaro Public School\",\n        \"address\": \"Sector 4, Bokaro Steel City\",\n        \"latitude\": 23.669300079345703,\n        \"longitude\": 86.1511001586914,\n        \"distanceInKm\": 19.25\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Ranchi International Academy\",\n        \"address\": \"Kanke Road, Ranchi\",\n        \"latitude\": 23.344100952148438,\n        \"longitude\": 85.30960083007812,\n        \"distanceInKm\": 83.36\n    }\n]"
+        }
+      ]
+    }
+  ]
+}
